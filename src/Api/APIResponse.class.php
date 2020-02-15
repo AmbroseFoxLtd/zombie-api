@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controllers\Api;
+namespace Zombie\Api;
 
 class APIResponse {
 

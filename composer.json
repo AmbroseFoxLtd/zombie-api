@@ -1,0 +1,7 @@
+{
+    "name": "mattaf/zombie-api",
+    "description": "API library for zombie",
+    "require": {
+        "php": "^7.2"
+    }
+}

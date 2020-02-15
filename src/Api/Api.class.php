@@ -1,11 +1,10 @@
 <?php
 
-namespace App\Controllers\Api;
+namespace Zombie\Api;
 
-use Zombie\Controller;
 use Exception;
 
-class Api extends Controller {
+class Api {
 
     /**
      * The default headers sent to the client
@@ -99,7 +98,7 @@ class Api extends Controller {
                 $this->sendError(400, 'No endpoint provided sent');
                 return;
             }
-            if ($this->env === 'driver') {
+            /*if ($this->env === 'driver') {
                 $driver = new Driver;
                 if ($this->request_method === 'GET'){
                     $data = $driver->get(
@@ -113,7 +112,7 @@ class Api extends Controller {
                 }
             } else {
                 $this->sendError(400, "Environment '{$this->env}' does not exist");
-            }
+            }*/
         } catch(Exception $e) {
             $this->sendError($e->getCode(), $e->getMessage());
         }
