@@ -1,7 +1,8 @@
 {
-    "name": "af/zombie-api",
+    "name": "ambrosefox/zombie-api",
     "description": "API library for zombie",
     "require": {
         "php": "^7.2"
-    }
+    },
+    "license": "proprietary"
 }
